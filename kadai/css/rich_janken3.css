@@ -1,0 +1,384 @@
+body{
+    font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+    background-color: gray;
+    margin: 0 auto;
+    
+}
+.wrap{
+    background-color: white;
+    width: 370px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* box-shadow: 10px; */
+    /* border: 20px ridge; */
+}
+.header{
+    /* width: 340px;
+    height: 40px;
+    font-size: 20px; */
+    /* font-weight: bold; */
+    /* margin:  10px auto; */
+    text-align: center;
+    /* position: absolute; */
+    background-color:rgb(118, 188, 188);
+    border-radius: 10px  10px 0 0 ;
+    box-shadow: 10px;
+    color: white;
+    padding-bottom: 8px;
+  
+
+}
+.header p{
+    display: block;
+    /* background-color: bisque; */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 10px;
+    /* box-shadow: 2px #8a8888; */
+}
+.main{
+    /* background-color: pink; */
+    display: flex;
+   flex-flow: column;
+   margin: 0 auto;
+   text-align: center;
+}
+.question{
+    background-color: #fff;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.quiz{
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.quiz_text{
+    /* background-color: plum; */
+    /* margin-top: 100px; */
+    /* width: 300px; */
+    /* height: 200px; */
+    color: rgb(118, 188, 188);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 5px;
+    margin-top: 100px;
+    /* margin: 0 auto; */   
+}
+.inst{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+.click_prompt{
+
+}
+.button_wrap{
+    /* background-color: yellowgreen; */
+    margin-top: 16px;
+    padding-bottom: 0;
+}
+#start_btn{
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#start_btn:hover{background: rgb(118, 188, 188);}
+
+.answer_wrap{
+    background-color: rgb(215, 212, 212);;
+    width: 360px;
+    height: 200px;
+    padding: 5px;
+    color: black;
+    margin: 0;
+}
+.answer1{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px; 
+}
+.answer2{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 8px;
+}
+.answer3{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 8px;
+}
+.answer4{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 0px 8px;
+}
+#button1{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button1:hover{background: rgb(118, 188, 188);}
+#button2{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button2:hover{background: rgb(118, 188, 188);}
+
+#button3{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button3:hover{background:rgb(118, 188, 188);}
+#button4{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button4:hover{background: rgb(118, 188, 188);}
+#button5{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button5:hover{background: rgb(118, 188, 188);}
+#button6{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button6:hover{background: rgb(118, 188, 188);}
+#button7{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button7:hover{background: rgb(118, 188, 188);}
+#button8{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button8:hover{background: rgb(118, 188, 188);}
+#button9{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button9:hover{background: rgb(118, 188, 188);}
+#button0{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button0:hover{background: rgb(118, 188, 188);}
+#button11{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button11:hover{background: rgb(118, 188, 188);}
+#button12{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button12:hover{background: rgb(118,188,188);}
+#button13{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button13:hover{background: rgb(118,188,188);}
+#button14{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button14:hover{background: rgb(118,188,188);}
+#button15{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button15:hover{background:rgb(118,188,188);}
+#button16{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button16:hover{background:rgb(118,188,188);}
+#button17{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button17:hover{background: rgb(118,188,188);}
+#button18{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button18:hover{background: rgb(118,188,188);}
+#button19{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button19:hover{background:rgb(118,188,188);}
+#button20{
+    color: black;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+    transition: .3s;
+}
+#button20:hover{background: rgb(118,188,188);}
+.footer{
+    /* color: white; */
+    background-color:rgb(118,188,188) ;
+    width: 370px;
+    height: 35px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    border-radius: 0 0 10px 10px ;
+    box-shadow: 10px black;
+    
+}
